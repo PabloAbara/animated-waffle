@@ -1,24 +1,20 @@
-# README
+# RUBY ON RAILS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+El objetivo de este proyecto es recordar / aprender de este framework. Hasta ahora, lo que he hecho es: 
 
-Things you may want to cover:
 
-* Ruby version
+* Git
 
-* System dependencies
+* GitHub
 
-* Configuration
+* Instalar Homebrew
 
-* Database creation
+* Instalar rbenv
 
-* Database initialization
+* Instalar Ruby, versión 3.1.2
 
-* How to run the test suite
+* Instalar Rails
 
-* Services (job queues, cache servers, search engines, etc.)
+* Crear Proyecto
 
-* Deployment instructions
-
-* ...
+* Here we are... 
