@@ -1,3 +1,20 @@
-<h1>STOCKING#index</h1>
+<h1>STOCKING</h1>
 
-<p>Hola Mundillo </p>
+<%= form_with url: "/", method: :get do |form| %>
+  <%= form.label :ticker, "Search for:" %>
+  <%= form.text_field :ticker %>
+  <%= form.submit "Search" %>
+<% end %>
+
+<br/>
+<% if @stock %>
+    <%= @stock.company_name %><br/>
+    <%= @stock.avg_total_volume %><br/>
+    <%= @stock.avg_total_volume %><br/>
+<% elsif @nothing %>
+    <%= @nothing %><br/>
+<% end %>
+
+<% if @error %>
+    <%= @error %><br/>
+<% end %>
